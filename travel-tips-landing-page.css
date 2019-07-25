@@ -1,0 +1,315 @@
+	body {
+		
+		font-family: 'Open Sans', sans-serif;
+		position: relative;
+		
+	}
+	
+	#title {
+		
+		width: 15rem;
+		font-family: 'Pacifico', cursive;
+		font-size: 400%;
+		
+	}
+	
+	.jumbotron {
+		
+		background-image: url("images/plane.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		border-radius: none !important;
+		
+	}
+	
+	.card-img-top {
+	
+		width: 100%;
+		height: 40vh;
+		object-fit: cover;
+	
+	}
+	
+	#tagline {
+		
+		font-family: 'Indie Flower', cursive;
+		font-size: 1.5em;
+		font-weight: bold;
+		
+	}
+	
+	#signUpText{
+		
+		font-family: 'Courgette', cursive;
+		
+	}
+	
+	#signUpButton {
+		
+		font-size: 1.2em;
+		color: white;
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		border: 1px solid rgba(0, 0, 0, 0.01);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transition: 0.5s;
+		
+	}
+	
+	#signUpButton:hover {
+		
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.57);
+		--x: 100%;
+		transition: 0.5s;
+		
+	}
+	
+	#navbar {
+		
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		border: none;
+		
+	}
+	
+	.nav-link {
+		
+		color: #5B5B5B !important;
+		border: none !important;
+		
+	}
+	
+	.nav-link:hover {
+		
+		color: white !important;
+		
+	}
+	
+	.active {
+		
+		background: none !important;
+		color: white !important;
+		transition-duration: 0.3s;
+		
+	}
+	
+	#download {
+		
+		background: linear-gradient(180deg, var(--c1, #0063AF), var(--c2, #84D7F7) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		font-family: 'Indie Flower', cursive;
+		font-weight: bold;
+		
+	}
+	
+	#download h4{
+	
+		font-size: 2em;
+		
+	}
+	
+	#download p{
+		
+		font-size: 1.2em;
+		
+	}
+	
+	#appStore:hover {
+		
+		border-radius: 12px;
+		cursor: pointer;
+		
+	}
+	
+	#googlePlay:hover {
+		
+		border-radius: 12px;
+		cursor: pointer;
+		
+	}
+	
+	.card {
+		
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		
+	}
+	
+	#loginButton {
+		
+		color: white;
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		border: 1px solid rgba(0, 0, 0, 0.01);
+		transition: 0.5s;
+		
+	}
+	
+	#loginButton:hover {
+		
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		--x: 100%;
+		transition: 0.5s;
+		
+	}
+	
+	#home {
+		
+		padding-top: 60px;
+		margin-top: -60px;
+		
+	}
+	
+	#about {
+		
+		padding-top: 60px;
+		margin-top: -60px;
+		
+	}
+	
+	#aboutHead {
+		
+		text-align: center;
+		font-family: 'Indie Flower', cursive;
+		font-size: 2em;
+		font-weight: bold;
+		
+	}
+	
+	#submitButton {
+		
+		color: white;
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		border: 1px solid rgba(0, 0, 0, 0.01);
+		transition: 0.5s;
+		
+	}
+	
+	#submitButton:hover {
+		
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		--x: 100%;
+		transition: 0.5s;
+		
+	}
+	
+	.modal-content {
+		
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		
+	}
+	
+	.input-group-text {
+		
+		background: transparent;
+		border: none;
+		
+	}
+	
+	.modal-header {
+	
+		border-bottom: none;
+		
+	}
+
+	.modal-footer {
+	
+		border-top: none;
+		
+	}
+	
+	.modal-title {
+		
+		font-family: 'Indie Flower', cursive;
+		font-weight: bold;
+		font-size: 1.8em;
+		
+	}
+	
+	#download {
+	
+		padding-top: 15% !important;
+		padding-bottom: 15% !important;
+		
+	}
+	
+	#download img:hover {
+	
+		animation: shake 0.5s;
+		
+	}
+
+	@keyframes shake {
+	
+		0% { transform: translate(1px, 1px) rotate(0deg); }
+		10% { transform: translate(-1px, -2px) rotate(-1deg); }
+		20% { transform: translate(-3px, 0px) rotate(1deg); }
+		30% { transform: translate(3px, 2px) rotate(0deg); }
+		40% { transform: translate(1px, -1px) rotate(1deg); }
+		50% { transform: translate(-1px, 2px) rotate(-1deg); }
+		60% { transform: translate(-3px, 1px) rotate(0deg); }
+		70% { transform: translate(3px, 1px) rotate(-1deg); }
+		80% { transform: translate(-1px, -1px) rotate(1deg); }
+		90% { transform: translate(1px, 2px) rotate(0deg); }
+		100% { transform: translate(1px, -2px) rotate(-1deg); }
+		
+	}
+	
+	.navbar-toggler {
+		
+		padding: 0;
+		border: none;
+		
+	}
+	
+	#loginToggleButton {
+		
+		color: white;
+		
+	}
+	
+	#loginButtonSmallScreen {
+		
+		color: white;
+		background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
+		border: 1px solid rgba(0, 0, 0, 0.01);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		
+	}
+	
+	#aboutCarousel{
+		
+		padding: 0;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		font-family: 'Indie Flower', cursive;
+		
+	}
+	
+	.carouselTitle {
+		
+		font-size: 2.7em;
+		
+	}
+	
+	.carouselText {
+		
+		font-family: 'Courgette', cursive;
+		font-size: 1.2em;
+		
+	}
+	
+	#carousel-1 {
+		
+		color: black;
+		
+	}
+	
+	.card-title {
+		
+		text-align: center;
+		font-family: 'Courgette', cursive;
+		font-size: 1.2em;
+		
+	}
+	
+	.card-text {
+		
+		font-family: 'Courgette', cursive;
+		
+	}
